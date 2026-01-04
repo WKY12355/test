@@ -1,4 +1,104 @@
 <!-- README.md -->
+# Configuration Specifications
+
+> Quick deployment and debugging guide for Agilex demoA, Agilex FF, and ARX demoB platforms.
+
+---
+
+## 📑 Table of Contents
+
+- [1. Agilex demoA](#1-agilex-demoa)
+- [2. Agilex FF](#2-agilex-ff)
+- [3. ARX demoB](#3-arx-demob)
+- [4. Inference Host Configuration](#4-inference-host-configuration)
+
+---
+
+## 1. Agilex demoA
+
+### 1.1 Key Components
+
+| Component | Specification |
+|:----------|:--------------|
+| Robotic Arm Model | Agilex Piper |
+| Camera System | Intel RealSense D435 (Triple Camera Setup) |
+| 3D Printed Components | Left Wrist Camera Mount, Right Wrist Camera Mount, Center Camera Mount, Center Camera Base |
+
+### 1.2 Positioning Specifications
+
+| Parameter | Value |
+|:----------|:------|
+| Center Camera Height (from ground) | 93 cm |
+| Left Secondary Arm → Table Front Edge Distance | 27 cm |
+| Right Secondary Arm → Table Front Edge Distance | 27 cm |
+| Center Base → Left Secondary Arm Center Distance | 16 cm |
+| Center Base → Right Secondary Arm Center Distance | 16 cm |
+| Left Primary Arm → Table Front Edge Distance | 18 cm |
+| Right Primary Arm → Table Front Edge Distance | 11 cm |
+| Left-Right Primary Arm Center Distance | 40 cm |
+
+---
+
+## 2. Agilex FF
+
+### 2.1 Key Components
+
+| Component | Specification |
+|:----------|:--------------|
+| Robotic Arm Model | Agilex Piper |
+| Camera System | Intel RealSense D435 (Triple Camera Setup) |
+| 3D Printed Components | Left Wrist Camera Mount, Right Wrist Camera Mount, Center Camera Mount, Center Camera Base |
+
+### 2.2 Positioning Specifications
+
+| Parameter | Value |
+|:----------|:------|
+| Center Camera Height (from ground) | 76 cm |
+| Left Secondary Arm → Table Front Edge Distance | 18 cm |
+| Right Secondary Arm → Table Front Edge Distance | 18 cm |
+| Center Base → Left Secondary Arm Center Distance | 34 cm |
+| Center Base → Right Secondary Arm Center Distance | 34 cm |
+| Left Primary Arm → Table Front Edge Distance | 18 cm |
+| Right Primary Arm → Table Front Edge Distance | 12 cm |
+| Left-Right Primary Arm Center Distance | 39 cm |
+
+---
+
+## 3. ARX demoB
+
+### 3.1 Key Components
+
+| Component | Specification |
+|:----------|:--------------|
+| Robotic Arm Model | ARX X5 |
+| Camera System | Intel RealSense D435 (Triple Camera Setup) |
+| 3D Printed Components | Left Secondary Arm Gripper, Right Secondary Arm Gripper, Left Wrist Camera Mount, Right Wrist Camera Mount, Center Camera Mount, Center Camera Base |
+
+### 3.2 Positioning Specifications
+
+| Parameter | Value |
+|:----------|:------|
+| Center Camera Height (from ground) | 93 cm |
+| Left Secondary Arm Base → Table Front Edge Distance | 45 cm |
+| Right Secondary Arm Base → Table Front Edge Distance | 87 cm |
+| Center Base → Left Secondary Arm Center Distance | 22 cm |
+| Center Base → Right Secondary Arm Center Distance | 22 cm |
+| Left Primary Arm → Table Front Edge Distance | 18 cm |
+| Right Primary Arm → Table Front Edge Distance | 11 cm |
+| Left-Right Primary Arm Center Distance | 53 cm |
+
+---
+
+## 4. Inference Host Configuration
+
+| Component | Requirement |
+|:----------|:------------|
+| GPU | NVIDIA RTX 4090 (≥48 GB VRAM) |
+
+---
+
+---
+
 # 配置清单
 
 > 适用于松灵 demoA / 松灵 FF / 方舟 demoB 三套平台的快速部署与调试。
